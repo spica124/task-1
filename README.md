@@ -9,7 +9,7 @@ settings.py 에 모델을 사용한다
 __________________________________________
 
 
-1.models.py 에 사용자정보를 입력받을 틀을 class로 짠다
+1.models.py 에 사용자정보를 입력받을 틀을 class로 작성한다.
 ```
 class User(AbstractUser):
     student_id = models.CharField(max_length=10)
