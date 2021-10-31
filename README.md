@@ -1,6 +1,6 @@
 # tesk-1
 _들어가기전_
-유저 모델을 import 시킨뒤 
+* 유저 모델을 import 시킨뒤 
   ```AUTH_USER_MODEL = 'users.User'```
 
 settings.py 에 모델을 사용한다고 쓴다.
@@ -52,7 +52,7 @@ user = authenticate(username=username,password=password)
         else :
             print("인증실패")
 ```
-login(request,user)은 로그인이 성공했을때 
+* login(request,user)은 로그인이 성공했을때 
 메인페이지로 넘기기위한 코드이다.
 
 
@@ -86,6 +86,6 @@ login(request,user)은 로그인이 성공했을때
 
 ******************************************
 
-서버를 실행할때는 cmd에서 프로그램 위치로 이동한뒤(cd로 이동) 
+* 서버를 실행할때는 cmd에서 프로그램 위치로 이동한뒤(cd로 이동) 
 ``` python mange.py runserver ```
 으로 실행시킨다.
