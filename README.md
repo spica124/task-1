@@ -3,7 +3,7 @@ _들어가기전_
 * 유저 모델을 import 시킨뒤 
   ```AUTH_USER_MODEL = 'users.User'```
 
-settings.py 에 모델을 사용한다고 쓴다.
+settings.py 에 모델을 사용한다
 
 
 __________________________________________
