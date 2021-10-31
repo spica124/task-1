@@ -40,7 +40,7 @@ class User(AbstractUser):
 
 
 html에서 input으로 입력받은 정보들을 request와post를 이용하여 db에 저장한다
-'''
+''' 
  username  = request.POST["username"]
         password  = request.POST["password"]
         email  = request.POST["email"]
