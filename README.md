@@ -25,7 +25,7 @@ class User(AbstractUser):
 
 나중에 추가할때는 아래와 같은 방식으로 이어나가면 된다.
 '''
- user = User.objects.create_user(username, email, password)
+        user = User.objects.create_user(username, email, password)
         user.favorite = favorite
         user.student_id = student_id
         user.gender = gender
