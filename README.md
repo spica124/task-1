@@ -33,7 +33,7 @@ ____________________________________________________________
 
 
 
-+html에서 input으로 입력받은 정보들을 request와post를 이용하여 db에 저장한다
+*html에서 input으로 입력받은 정보들을 request와post를 이용하여 db에 저장한다
 ```
  username  = request.POST["username"]
         password  = request.POST["password"]
@@ -42,7 +42,7 @@ ____________________________________________________________
 ```
 
 
-+django 내장함수를 사용해서 db에 있는 아이디,비번인지 체크한뒤 true , false 로 return한다
+*django 내장함수를 사용해서 db에 있는 아이디,비번인지 체크한뒤 true , false 로 return한다
 ```
 from django.contrib.auth import authenticate,login,logout
 user = authenticate(username=username,password=password)
