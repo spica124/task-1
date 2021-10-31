@@ -1,0 +1,28 @@
+
+<br>
+
+<form action="" method="POST">
+    {% csrf_token %}
+    <p>아이디</p>
+    <input name="username"type="text">
+    <p>비밀번호</p>
+    <input name="password"type="password">
+    <p>이메일 주소</p>
+    <input name="email" type="text">
+    <p>좋아하는 음식</p>
+    <input name="favorite"type="text">
+    <p>학번</p>
+    <input name="student_id"type="text">
+    
+    <p>성별</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">남자</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">여자</label><br>
+    
+    <p>학과</p>
+    <input name="Department"type="text">
+    
+    <input type="submit" value="회원가입">
+
+</form>
